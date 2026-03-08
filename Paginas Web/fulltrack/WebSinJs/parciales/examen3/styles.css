@@ -1,0 +1,29 @@
+/* Estilos para la lista */
+li:nth-child(1n + 4) {
+  color: white;
+  background-color: blue;
+}
+/*Estilo título principal */
+.titulo-principal {
+  color: crimson;
+}
+/* Pseudo-clase	Estado  del link*/
+a:hover {
+  color: rgb(112, 36, 8);
+}
+
+/* Estilo de una clase*/
+.caja-info {
+  border-style: solid;
+  color: darkblue;
+}
+/*Estilo seudo elemento*/
+th,
+td {
+  color: rgb(37, 15, 243);
+}
+/* before	Pseudo-elemento	Contenido visual*/
+p::before {
+  content: ">> ";
+  color: rgb(247, 179, 9);
+}

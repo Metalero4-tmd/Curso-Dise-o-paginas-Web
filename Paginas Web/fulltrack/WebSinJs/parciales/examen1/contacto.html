@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos</title>
+  </head>
+  <body>
+    <form action="contacto.php" method="post">
+      <label for="nombre">Nombre</label>
+      <input
+        type="text"
+        name="nombre"
+        id="nombre"
+        required
+        placeholder="ingrese su nombre..."
+      />
+      <br />
+      <label for="correo">Correo</label>
+      <input
+        type="email"
+        name="correo"
+        id="correo"
+        required
+        placeholder="ingrese su correo..."
+      />
+      <br />
+      <label for="edad">Edad</label>
+      <input type="number" name="edad" id="edad" required min="1" max="120" />
+      <br />
+      <label for="fecha">Fecha</label>
+      <input type="date" name="fecha" id="fecha" min="1930-12-31" />
+      <br />
+      <label for="comentario">Comentario</label>
+      <br />
+      <textarea name="comentario" id="comentario" rows="5" cols="30"></textarea>
+      <br />
+      <label for="pais">País</label>
+      <select name="" id="" required>
+        <option value="" selected disabled></option>
+        <option value="argentina">Argentina</option>
+        <option value="mexico">Mexíco</option>
+        <option value="peru">Mexíco</option>
+        <option value="uruguay">Uruguay</option>
+      </select>
+      <br />
+      <br />
+      <input type="file" name="file" id="file" />
+      <br />
+      <br />
+      <input type="submit" value="enviar" />
+      <noscript>
+        <p>Este sitio requiere JavaScript para funcionar correctamente.</p>
+      </noscript>
+    </form>
+    <footer>
+      <p>&copy; 2026 - Daniel Morales</p>
+      <p>Práctica HTML5</p>
+    </footer>
+  </body>
+</html>

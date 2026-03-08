@@ -1,0 +1,23 @@
+.caja1 {
+  background-color: rgb(236, 178, 157);
+  border-width: 3;
+}
+.caja2 {
+  background-color: black;
+  color: white;
+  border-top: blue solid 2px;
+  border-left: rgb(218, 134, 16) dotted 2px;
+  border-right: rgb(218, 134, 16) dotted 2px;
+  border-bottom: chartreuse solid 8px;
+}
+.caja3 {
+  border-color: blue;
+  border-style: solid;
+}
+.caja4 {
+  background-image: url(/fulltrack/archivos/Imagenes/lightning-7389933_640.jpg);
+  width: 600px;
+  height: 400px;
+  color: white;
+  border-radius: 10px 10px 10px 10px ;
+}

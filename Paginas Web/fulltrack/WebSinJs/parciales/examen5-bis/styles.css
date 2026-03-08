@@ -1,0 +1,90 @@
+/* =====================
+   RESET / BASE
+===================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* =====================
+   LAYOUT
+===================== */
+
+nav {
+  background: lightblue;
+}
+
+main {
+  background: lightgreen;
+}
+
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid crimson;
+}
+
+.contenedor {
+  display: flex;
+  border: 2px solid blue;
+}
+
+nav {
+  /* La propiedad flex-grow de CSS especifica el factor de crecimiento de un elemento flexible (que tiene asignado display:flex)*
+/* flex: 0 0 20%;  */
+
+/*La propiedad CSS flex-shrink especifica el factor de contracción de un flex item*/
+/* flex-basis:   Ésta propiedad determina el tamaño de una caja de contenidos */
+  flex: 0 0 200px;
+}
+main { flex: 1; }
+
+/* ==> Utiliza el modo de presentación de fusión de borde */
+table {
+  border-collapse: collapse;
+}
+
+/* =====================
+ EFECTOS VISUALES
+===================== */
+
+.navegador {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid crimson;
+}
+
+table,
+th,
+td {
+  border: 2px solid crimson;
+}
+@font-face {
+  font-family: "parrafo";
+  src: url("./font/Montserrat/Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+/* Control estructural */
+.seccion-noticia > p {
+  font-family: "parrafo";
+  background-color: cadetblue;
+  color: white;
+}
+
+.pie-pagina {
+  background-color: #385170;
+  color: #fcfefe;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #407088;
+  color: #f2f2f2;
+}

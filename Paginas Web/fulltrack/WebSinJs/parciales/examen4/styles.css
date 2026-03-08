@@ -1,0 +1,78 @@
+/*Tabla se va a fusionar los bordes*/
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  background-color: #155263;
+  color: #dbe6e9;
+  font-size: 20px;
+}
+/* Se da color y ademas se especifica que sea solida la linea */
+table,
+th,
+td {
+  border: 1px solid #0f0f0f;
+  padding: 8px;
+}
+
+/* Se aliena el texto al centro de la fila*/
+tr {
+  text-align: center;
+}
+
+/*filas impares se da un color */
+tr:nth-child(2n + 3) {
+  background-color: #b0d17a;
+}
+/* Cabecera tabla se fondo y al texto un color*/
+th {
+  background-color: #355e97;
+  color: white;
+}
+/* Fuente de las letras , importado de forma local */
+@font-face {
+  font-family: "Fuente WorkSans";
+  src: url(../examen4/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+
+/* fuente, tamaño y centrado de h1 */
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Listado: centar y quetar circulos */
+ul,
+li {
+  text-align: center;
+  list-style: none;
+}
+
+/* centra un texto y tiene un maximo de ancho */
+.contenedor {
+  margin: 40px auto;
+  text-align: left;
+  background-color: #b0d17a;
+  max-width: 200px;
+}
+
+/* section{
+  
+  margin-bottom: 20px;
+
+  }
+
+*/  
+
+
+.h2_titulo_centrado{
+  text-align: center;
+  padding: 10px
+}
+
+table{
+margin: auto;
+
+}

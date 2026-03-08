@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "fuente-importada";
+  src: url(../fuente/Oswald/static/Oswald-Medium.ttf);
+}
+
+p {
+  font-family: "fuente-importada";
+}
+.articulo {
+  font-size: 24px;
+  font-weight: bolder;
+  font-style: italic;
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: blue;
+}

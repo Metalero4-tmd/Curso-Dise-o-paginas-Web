@@ -1,0 +1,106 @@
+/*************** Seudo class ******************/
+a {
+  font-size: 24px;
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: dotted;
+  font-size: 24px;
+  color: rgb(86, 100, 86);
+}
+
+.caja1 {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+}
+
+.caja1:hover {
+  background-color: rgb(35, 206, 100);
+}
+
+/***************** pseudo-elementos *************/
+/* odd
+Representa elementos cuya posición numérica en
+una serie de hermanos es impar: 1, 3, 5, etc.
+
+even
+Representa elementos cuya posición numérica en una serie de hermanos es par: 2, 4, 6, etc. 
+
+Y este CSS
+li:nth-child(2n + 3) {
+  background-color: aquamarine;
+}
+
+Pensalo así (sin matemática):
+nth-child(…) significa:
+
+👉 “elegí algunos hijos según un patrón”
+
+Ahora solo mirá el + 3
+
+Eso dice:
+
+arrancá desde el tercer elemento
+
+O sea:
+❌ item1
+❌ item2
+✅ item3
+
+Hasta acá, todo bien.
+
+Ahora el 2n
+
+Eso significa:
+
+después del que marcás, saltá de a dos
+
+O sea:
+
+marcás el 3
+
+saltás uno (el 4)
+
+marcás el siguiente (el 5)
+
+Resultado final (visual)
+item1 ❌
+item2 ❌
+item3 ✅
+item4 ❌
+item5 ✅
+
+
+🎯 Por eso se pintan el 3 y el 5
+
+Opción 1️⃣ (la más clara y correcta): selectores múltiples
+li:nth-child(1),
+li:nth-child(3),
+li:nth-child(4) {
+  background-color: aquamarine;
+}
+
+✔ Simple
+✔ Legible
+✔ Cero magia
+✔ Recomendado cuando son pocos ítems
+*/
+
+li:nth-child(2n + 3) {
+  background-color: aquamarine;
+}
+
+/* Pseudo elementos before y after */
+
+p::before {
+  content: "==>";
+}

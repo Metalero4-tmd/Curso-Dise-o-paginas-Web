@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Principal</title>
+</head>
+<body>
+  <form action="datos.php" method="post">
+  
+    <label for="nombre">nombre</label>
+    <input type="text" id="nombre" name="nombre" placeholder="ingrese su nombre..." required>
+    <br>
+    <label for="contrasena">contraseña</label>
+    <input type="password" name="contrasena" id="contrasena" placeholder="ingrese su contraseña..." required>
+    <br>
+    <label for="correo">mail</label>
+    <input type="email" name="correo" id="correo" placeholder="ingrese su email" required>
+    <br>
+    <label for="edad">edad</label>            
+    <input type="number" name="edad" id="edad" min="1" max="120" required>
+    <br>
+    <label for="fecha">fecha</label>
+    <input type="date" name="fecha" id="fecha" min="2026-01-01" required >        
+    <br>
+    <label for="comentario">comentario</label>
+    <br>
+    <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
+    <br>
+    <label for="pais">pais</label>
+    <select name="pais" id="pais" required>
+
+    <option value="" selected disabled>Seleccione un país</option>
+    <option value="arg">Argentina</option>
+    <option value="ita">Italia</option>
+    <option value="mex">México</option>       
+    </select>
+    <br>
+   <label for="archivo">cargar archivo</label>
+   <br>
+  <input type="file" name="archivo" id="archivo"> 
+  <br>
+  <input type="submit" value="enviar">       
+  </form>
+</body>
+</html>

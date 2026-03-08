@@ -1,0 +1,141 @@
+/* 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+
+
+
+nav {
+  width: 20%;
+  float: left;
+}
+nav a {
+  border-radius: 10px 0 10px 0;
+  display: block;
+  background-color: #f71570;
+
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+  border: 5px;
+  padding: 10px;
+}
+
+section {
+  float: right;
+  width: 75%;
+  border-radius: 5px ;
+  border: 1px solid black;
+  margin: 10px;
+
+}
+
+aside{
+ clear: both;
+float: right;
+width: 75%;
+margin: 10px;
+border: 10px;
+
+}
+
+footer{
+
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  
+}
+
+footer {
+  clear: both;
+  font-size: 0.9rem;
+   text-align: center;
+   background-color: #333;
+
+} */
+
+/* =====================
+   RESET / BASE
+===================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+
+
+/* =====================
+   LAYOUT
+===================== */
+nav {
+  float: left;
+  width: 20%;
+}
+
+section {
+  float: right;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 75%;
+}
+
+/*Este elemento debe colocarse debajo de cualquier elemento anterior que tenga float: left o float: right.*/
+footer {
+  clear: both;
+}
+
+
+/* =====================
+   ESTILOS VISUALES
+===================== */
+nav a {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+
+  background-color: #f71570;
+  color: #fff;
+  text-decoration: none;
+
+  border-radius: 10px 0;
+}
+
+section {
+  margin: 10px;
+  padding: 10px;
+
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+aside {
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+  padding: 20px;
+
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+
+}
+

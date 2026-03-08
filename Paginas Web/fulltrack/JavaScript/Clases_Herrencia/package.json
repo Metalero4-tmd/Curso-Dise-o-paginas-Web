@@ -1,0 +1,12 @@
+{
+  "name": "clases_herencia",
+  "version": "1.0.0",
+  "description": "Prácticas de clases y herencia en JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Daniel Morales",
+  "license": "ISC"
+}

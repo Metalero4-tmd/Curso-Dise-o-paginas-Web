@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <form action="login" autocomplete="off">
+      <fieldset>
+        <legend>Ingreso al campus</legend>
+        <label for="usuario">Usuario: </label>
+        <input
+          type="text"
+          name="user"
+          id="usuario"
+          placeholder="ingrese su usuario...."
+          minlength="8"
+          maxlength="30"
+          required
+        />
+        <br />
+        <label for="password">Contraseña: </label>
+        <input
+          type="password"
+          name="pass"
+          id="password"
+          minlength="8"
+          maxlength="64"
+          required
+        />
+        <br />
+        <input type="submit" value="enviar">
+        <input type="reset" value="reset">
+
+        <!-- <button type="submit" id="enviar">Enviar</button>
+        <button type="button" id="cancelar">cancelar</button> -->
+
+      </fieldset>
+    </form>
+  </body>
+</html>

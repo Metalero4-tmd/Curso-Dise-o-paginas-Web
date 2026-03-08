@@ -1,0 +1,37 @@
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid crimson;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  text-align: center;
+}
+
+th{
+
+  background-color: #1d3557;
+  color: #f1faee;
+
+} 
+
+tr:nth-child(even)
+{
+
+background-color: #249E94;
+
+}
+
+/* título descriptivo a las tablas*/
+caption{
+background-color:#84934A;
+color: #ECECEC;
+
+
+}

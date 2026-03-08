@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--Operadores anidados nesting 
+ejemplo : div>ul>li + enter
+
+crea el bloque
+-->
+
+<body>
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+</body>
+
+<!--Operadores hermanos sibling
+estan al mismo nivel
+ejemplo : div+p+bq
+
+crea el bloque
+-->
+<div></div>
+<p></p>
+<blockquote></blockquote>
+
+</html>
+
+<!--Conbinar
+div>p>span+em +enter
+-->
+<div>
+    <p><span></span><em></em></p>
+</div>
+
+<!--
+ multiplicacion
+ul>li*li*li + enter
+-->
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<!--
+Sin Agrupar
+div>header>ul>li*2+a+footer>p
+-->
+<div>
+    <header>
+        <ul>
+            <li></li>
+            <li></li>
+            <a href=""></a>
+            <footer>
+                <p></p>
+            </footer>
+        </ul>
+    </header>
+</div> 
+
+<!--
+Con Agrupacíon
+div>(header>ul>li*2+a)+footer>p
+-->
+<div>
+    <header>
+        <ul>
+            <li></li>
+            <li></li>
+            <a href=""></a>
+        </ul>
+    </header>
+    <footer>
+        <p></p>
+    </footer>
+</div>
+

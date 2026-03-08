@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Ejercicio DOM</title>
+  </head>
+
+  <body>
+    <h1>Lista de mensajes</h1>
+
+    <p>Mensaje uno</p>
+    <p>Mensaje dos</p>
+    <p>Mensaje tres</p>
+    <p>Mensaje cuatro</p>
+
+    <script>
+      let parrafos = document.getElementsByTagName("p");
+      console.log(`Cantidad paráfos: ${parrafos.length}`);
+
+      parrafos[0].innerHTML = "TN";
+      console.log(`Parráfo uno :${parrafos[0].innerHTML}`);
+      parrafos[1].innerHTML = "CINECANAL";
+      console.log(`Parráfo dos :${parrafos[1].innerHTML}`);
+      parrafos[2].innerHTML = "FOX";
+      console.log(`Parráfo tres :${parrafos[2].innerHTML}`);
+      parrafos[4].innerHTML = "STUDIO 21";
+      console.log(`Parráfo tres :${parrafos[3].innerHTML}`);
+
+      for (let i = 0; i < parrafos.length; i++) {
+        if (i % 2 === 0) {
+          parrafos[i].style.color = "white";
+
+          parrafos[i].style.background = "blue";
+        } else {
+          parrafos[i].style.color = "red";
+          parrafos[i].style.background = "yellow";
+        }
+      }
+    </script>
+  </body>
+</html>

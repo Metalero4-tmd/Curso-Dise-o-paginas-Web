@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios con Javascript</title>
+  </head>
+  <body>
+    <form id="fomulario" action="">
+      <div>
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="" id="nombre" />
+        <br />
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="" id="apellido" />
+        <br />
+        <label for="edad">Edad:</label>
+        <input type="number" name="" id="edad" />
+      </div>
+    </form>
+    <button onclick="mostrarNombre()">Mostrar datos</button>
+    
+
+    <script>
+      const mostrarNombre = () => {
+        let inputNombre = document.getElementById("nombre").value;
+
+        let inputApellido = document.getElementById("apellido").value;
+
+        document.getElementById("fomulario").innerHTML =
+          inputNombre + inputApellido;
+      };
+    </script>
+  </body>
+</html>

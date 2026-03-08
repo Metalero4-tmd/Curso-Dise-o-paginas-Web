@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Ejercicio DOM</title>
+  </head>
+
+  <body>
+    <h1 class="contenedor">Lista de mensajes</h1>
+    <p class="contenedor" >Mensaje uno</p>
+    <p class="contenedor">Mensaje dos</p>
+    <p class="contenedor">Mensaje tres</p>
+    <p class="contenedor">Mensaje cuatro</p>
+    <p class="contenedor2">Mensaje cinco</p>
+    <p class="contenedor2">Mensaje seis</p>
+
+
+
+
+    <script>
+      let parrafos = document.querySelectorAll("p.contenedor2");
+          for (let i = 0; i < parrafos.length; i++) {
+            console.log(`Selecciona solos a solo elementos declarado ${parrafos[i].innerHTML}`);
+      }
+    </script>
+  </body>
+</html>

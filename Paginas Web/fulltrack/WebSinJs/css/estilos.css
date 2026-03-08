@@ -1,0 +1,62 @@
+/* Selector universal "*" */
+/* resetear los estilos, porque los navegadores , tienen sus propios estilos*/
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* Selector por elemento */
+h1 {
+  color: red;
+}
+
+/* Selector por elemento */
+p {
+  color:blue;
+  padding: 15px;
+  border: 10px solid powderblue;
+  margin: 40px 10px 8px;
+}
+
+/*Selector por ID- se usa "#" */
+h2#subtitulo-seccion {
+  color: green;
+}
+/*Selector por clase- se usa "." */
+.subtitulo-seccion {
+  color: rgb(128, 36, 0);
+}
+
+/*Selector multiple */
+
+h1,p ,.subtitulo-seccion {
+
+ background-color: blueviolet;
+ color: yellowgreen;
+
+}
+
+/* Selector de descendencia child - nested */
+/* ul li {
+
+list-style:square ;
+padding: 10px;
+font-size: 24px;
+color: cadetblue;
+} */
+
+/* body {
+
+background-color: bisque;
+
+} */
+
+/* Selelectores de hijos directos */
+ol > li {
+
+list-style: lower-roman;
+padding: 10px;
+font-size: 24px;
+border: 1px solid red;
+}
+

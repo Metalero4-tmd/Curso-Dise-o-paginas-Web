@@ -1,0 +1,23 @@
+/* Reset base estándar y seguro */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+p {
+  margin: 10px;
+}
+.contenedor {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.contenedor2 {
+  color: darkcyan;
+}

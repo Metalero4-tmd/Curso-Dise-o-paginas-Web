@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6em;
+}
+.contenedor {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+.caja {
+  background-color: rgb(46, 160, 141);
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+}

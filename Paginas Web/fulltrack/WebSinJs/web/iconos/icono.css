@@ -1,0 +1,45 @@
+/* Reset base estándar y seguro */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.badge-tm,.bi-bank ,.home-outline
+{
+  width: 100px;
+  height: 80px;
+  margin: 10px;
+}
+
+.contenedor-icono,
+.contenedor-icono-sgv,.contenedor-ionicons {
+  display: flex;
+  justify-content: center;
+}
+
+.home-outline {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle; /* centra el icono con el texto */
+  color: #007bff;
+}
+
+.contenedor-espacio{
+position: relative;
+top:80px;
+border: 2px solid #007bff;
+width: 30%;
+height: 30%;
+margin: auto;
+}
+
+.centrar-elemento{
+text-align: center;
+
+}

@@ -1,0 +1,25 @@
+.contenido1 {
+  position: relative;
+  z-index: 1;
+  border: 2px solid crimson;
+  margin: 10px;
+
+}
+
+.contenido2 {
+  position: relative;
+  z-index: 3;
+  margin: 10px;
+  border: 2px solid rgb(113, 20, 220);
+    top: -60px;
+
+}
+
+.contenido3 {
+  position: relative;
+  z-index: 2;
+  margin: 20px;
+  border: 2px solid crimson;
+  top: -120px;
+
+}

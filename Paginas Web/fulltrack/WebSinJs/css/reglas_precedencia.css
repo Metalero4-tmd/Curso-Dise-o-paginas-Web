@@ -1,0 +1,14 @@
+p {
+  font-size: 36px;
+  color: blue;
+}
+
+.caja-elemento {
+  font-size: 18px;
+  color: cornflowerblue !important;
+}
+
+p {
+  font-size: 18px;
+  color: rgb(240, 15, 15);
+}

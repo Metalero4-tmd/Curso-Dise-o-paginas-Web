@@ -1,0 +1,127 @@
+/* =====================
+   RESET / BASE
+===================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* =====================
+   LAYOUT
+===================== */
+
+body {
+  background-color: #fffdf1;
+}
+nav {
+  float: left;
+  width: 20%;
+  margin: 0;
+  text-decoration: none;
+
+  position: absolute;
+  left: 5px;
+  border-radius: 30px;
+  background-color: #f70776;
+}
+
+nav,
+ul {
+  padding: 0;
+}
+
+.sectores {
+  float: right;
+  width: 70%;
+  border: 2px solid crimson;
+  margin: 8px;
+  padding: 8px;
+}
+
+.pie-pagina {
+  clear: both;
+  text-align: center;
+  padding: 3px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 2px solid rgb(187, 19, 19);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.noticia-relacionada {
+  border: 2px solid crimson;
+  float: left;
+  width: 200px;
+  position: absolute;
+  left: 5px;
+  margin-top: 20%;
+}
+
+/* =====================
+   EFECTOS VISUALES
+===================== */
+
+a {
+  text-decoration: none;
+  background-color: rgb(121, 13, 223);
+  color: white;
+  margin: 3px;
+  border-radius: 10px 0 10px 0;
+  display: block;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+caption {
+  background-color: #142d4c;
+  color: #ececec;
+}
+
+.pie-pagina {
+  background-color: #668ba4;
+  color: #fcfefe;
+}
+
+tr:nth-child(2n+1){
+
+ background-color: #0092ca; 
+ color:white;
+
+
+} 
+/* =====================
+  Fuentes
+===================== */
+
+@font-face {
+  font-family: "fuente-title-second";
+  src: url("./font/Montserrat/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+}
+
+
+aside p {
+
+font-family: "fuente-title-second", sans-serif;
+
+
+}
